@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Development Fundamentals</title>
+</head>
+<body>
+    
+    <!-- Page Sections -->
+    <header style="background-color:gray">
+        <h1>This is inside a Header</h1>
+    </header>
+    
+    <nav style="background-color:gray">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </nav>
+    
+    <main style="background-color:gray">
+        <article>
+            <h3>Some Headings of an Article</h3>
+            <p>Information regarding the article</p>
+        </article>
+    </main>
+    
+    <main style="background-color:gray">
+        <section>
+            <h2>Some headings</h4>
+            <p>Some text</p>
+        </section>
+        
+        <aside>
+            <h4>Did you know?</h4>
+            <p>Some additional info</p>
+        </aside>
+    </main>
+    
+    <div style="background-color:gray">
+        <h3>Some heading</h3>
+        <p>some text</p>
+        <a href="#">Some Links</a>
+    </div>
+    
+    <hr>
+        
+    <!-- Intro to HTML -->
+    <p>This is a paragraph</p>
+    
+    <h1>This is a Heading</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    
+    <!-- Text Formatting Exercise -->
+    <b>This is a BOLD text</b>
+    </br>
+    <strong>This is a STRONG text</strong>
+    </br>
+    <i>This is ITALIC text</i>
+    </br>
+    <em>This is to EMPHASIZE text</em>
+    </br>
+    <u>This is to UNDERLINE text</u>
+    
+    <!-- HTML Structure -->
+    <p>This is <b>NESTING</b></p>
+    <p><i>Proper nesting</i></p></p>
+    
+    <!-- HTML Attributes -->
+    <p align="center">aligned center text</p>
+    <p align="right">aligned right text</p>
+    <a href="https://www.google.com" target="_blank" title="Google">Link to Google</a>
+    </br>
+    <img src="img1.jpg" alt="Simpsons" width="50%">
+    
+    <hr>
+    
+    <!-- List Exercise -->
+    <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ul>
+    
+    <ol>
+        <li>Honda</li>
+        <li>Suzuki</li>
+        <li>Yamaha</li>
+    </ol>
+    
+    <ol>
+        <li>Apply</li>
+        <li>Mango</li>
+            <ul>
+                <li>Red</li>
+                <li>Blue</li>
+            </ul>
+        <li>Orange</li>
+    </ol>
+
+    <hr>
+
+    <!-- Table Exercise -->
+    <table border="1">
+        <tr>
+            <th rowspan="3">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td colspan="2">Amy</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!--Form Exercise-->
+    <!-- "for" is used to associate label to input id -->
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name here">
+        <input type="email" id="mail" placeholder="E-mail here">
+        <input type="tel" id="telNumber" placeholder="Telephone Number here">
+    </form>
+    <br>
+    <!-- Checkbox -->
+    <form style="background-color:gray">
+        <label for="tech">Technology</label>
+        <input type="checkbox" id="tech">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="sports">
+        <label for="books">Books</label>
+        <input type="checkbox" id="books">
+    </form>
+    
+    <!-- Radio Button -->
+    <form style="background-color:gray">
+        <h3>Courses</h3>
+        <label for="engr">Engineer</label>
+        <input type="radio" id="engr" name="courses">
+        <label for="cs">Computer Science</label>
+        <input type="radio" id="cs" name="courses">
+        <label for="it">Information Tech</label>
+        <input type="radio" id="it" name="courses">
+    </form>
+    <br>
+    <form style="background-color:gray">
+        <label for="txtArea">Text Area</label>
+        <textarea id="txtArea"></textarea>
+    </form>
+    
+    <br>
+    
+    <form style="background-color:gray">
+        <h4>Colors:</h4>
+        <select>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </select>
+    </form>
+    
+    <br>
+    
+    <form style="background-color:gray">
+        <h3>Types of buttons</h3>
+        <button>This is a button</button>
+        <input type="button" id="btn" value="This is also a button">
+        <input type="reset" id="reset" value="Resets the form">
+    </form>
+    <br>
+    <hr>
+    <form style="background-color:gray">
+        <h3>Report</h3>
+         <label for="issues">Concerns:</label>
+         <select id="issues">
+             <option>Cheating</option>
+             <option>AFK</option>
+             <option>Toxic behavior</option>
+         </select><br><br>
+         <label for="warning">Give Warning</label>
+         <input type="radio" id="warning">
+         <label for="ban">Ban Player</label>
+         <input type="radio" id="ban"><br>
+         <label for="name">Name</label>
+         <input type="text" id="name">
+         <br><br>
+         <label for="msg">Message</label>
+         <input type="text" id="msg" placeholder="Enter message here..."><br>
+         <input type="button" value="report" id ="btn_report">
+         <input type="reset" value="clear">
+    </form>
+    
+    <!-- HTML Special Characters -->
+    <p>This is a paragraph with <p> tag but the tag is not visible</p>
+    
+    <p>This paragraph use ampershand and semi colon to include special characters.eg. &lt;p&gt;</p>
+    
+    <b>Speed:</b> 42 &nbsp; mph
+    
+    <footer>
+        <p align="center" style="background-color:blue">Copyright</p>
+    </footer>
+    
+</body>
+</html>
