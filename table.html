@@ -203,7 +203,26 @@
     
     <p>This paragraph use ampershand and semi colon to include special characters.eg. &lt;p&gt;</p>
     
-    <b>Speed:</b> 42 &nbsp; mph
+    <!-- <b>Speed:</b> 42 &nbsp; mph -->
+    
+    <!-- Multimedia Exercise -->
+    <audio src="Im-still-here.mp3">This is for unsopported browsers</audio>
+    
+    <audio src="Im-still-here.mp3" controls>Audio with controls</audio>
+    
+    <audio src="Im-still-here.mp3" controls loop>This automatically loops the audio</audio>
+    
+    <audio controls>
+        <source src="Im-still-here.mp3" type="audio/mpeg">Mp3</source>
+        <source src="Im-still-here.ogg" type="audio/ogg">Ogg</source>
+    </audio>
+    
+    <video controls width="350px" height="200px">
+        <source src="vid1.mp4" type="video/mp4">Mp4</source>
+        <source src="vid1.ogg" type="video/ogg">Ogg</source>
+    </video>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zO8TIDyreUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     <footer>
         <p align="center" style="background-color:blue">Copyright</p>
