@@ -1,0 +1,22 @@
+h2{
+    color: blue;
+}
+
+.txt_random {
+    color: red;
+    font-size: 10px;
+    background-color: skyblue
+}
+
+#some_txt {
+    color: yellow;
+    background-color: black;
+}
+
+li strong {
+    color: green;
+}
+
+header {
+    background-color: blue;
+}
