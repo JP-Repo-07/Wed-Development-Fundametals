@@ -2,12 +2,14 @@ h2{
     color: blue;
 }
 
+/*Class html attribute*/
 .txt_random {
     color: red;
     font-size: 10px;
     background-color: skyblue
 }
 
+/*Id html attribute*/
 #some_txt {
     color: yellow;
     background-color: black;
@@ -19,4 +21,29 @@ li strong {
 
 header {
     background-color: blue;
+}
+
+.intro {
+    color: blue;
+    font-size: 30px;
+    font-family: Times New Roman, sans serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.opening {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 3px 2px 3px red;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.closing {
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: 3px 2px 3px blue,
+    2px 2px 1px green;
+    line-height: 5;
 }
