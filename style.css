@@ -15,9 +15,9 @@ h2{
     background-color: black;
 }
 
-li strong {
+/*li strong {
     color: green;
-}
+}*/
 
 header {
     background-color: blue;
@@ -47,3 +47,176 @@ header {
     2px 2px 1px green;
     line-height: 5;
 }
+
+.box {
+    margin: 50px 10px 20px 20px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 50%;
+    width: 100px;
+    box-sizing: border-boxs;
+}
+
+.box1 {
+    border: 3px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.box2 {
+    border: 3px dashed black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: brown;
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 13%;
+    color: white;
+    background-color: blue;
+}
+
+a:hover {
+    background: black;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    /*background-color: blue;*/
+}
+
+tr:nth-child(even) {
+    background-color: skyblue;
+}
+
+tr:nth-child(odd) {
+    background-color: crimson;
+}
+
+/* form */
+input {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+}
+
+label {
+    font-weight: italic;
+    color: green;
+}
+
+/* Target specific input inside form */
+input[type="text"], input[type="email"] {
+    border: 1px solid green;
+    width: 100%;
+    padding: 20px;
+}
+
+input[type="button"] {
+    background-color: indianred;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type='button']:hover {
+    background-color: lightblue;
+}
+
+p {
+    background-color: gray;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+b {
+    background-color: black;
+    border: 1px dashed blue;
+    color: white;
+    display: block;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    z-index: 2;
+}
+
+.special {
+    flex: 2;
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
+}
+
+img {
+    float: right;
+}
+
+
+/*ul {
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url('img1.jpg') The same with the below codes
+    list-style: square inside url('img1.jpg');  The same with the above codes
+}*/
+
+/*
+a:link {
+    color: crimson;
+    font-size: 20px;
+    text-decoration: none;
+}  Normal link style
+
+a:visited {
+    color: blue;
+    font-size: 100px;
+} Link style when already visited
+
+a:active {
+    color: yellow;
+    font-size: 50px;
+} Link style when link is active
+
+a:hover {
+    color: goldenrod;
+    font-size: 200px;
+}  Link style when mouse pointer hover on link */
